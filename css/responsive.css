@@ -1,0 +1,221 @@
+/* ----------------------------------------------------------------
+	Retina CSS
+-----------------------------------------------------------------*/
+@media (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (max-width: 991px) {
+	
+	.col_full,
+	.col_half,
+	.col_one_third,
+	.col_two_third,
+	.col_three_fourth,
+	.col_one_fourth,
+	.col_one_fifth,
+	.col_two_fifth,
+	.col_three_fifth,
+	.col_four_fifth,
+	.col_one_sixth,
+	.col_five_sixth,
+	.col_nomargin .col_three_fourth
+	.col_nomargin .col_one_fourth {
+		width: 100% !important;
+		margin-left: 0;
+		float: none;
+	}
+	.page-gallery .col_one_fourth:nth-child(2n+1) {margin-left: 0 !important;clear: left;}
+	.page-gallery .col_one_fourth,.page-gallery .col_one_third {width: 48% !important;margin-left: 4%;float: left;margin-bottom: 20px;}
+	
+	#header,
+	#header-wrap {height: 110px;background: #39a0ce;}
+	#header {box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);}
+	#header-wrap h1 {margin: 0 0 0 60px;font-size: 24px;font-style: normal;clear: both;padding: 0;}
+	#header-wrap h1 a {color: #fff;}
+	.flexslider li p {font-size: 1.4em;margin-right: 15px;}
+	
+	img,.img {width: 100%;}
+	.navbox {background-color: transparent;box-shadow:none;}
+	
+	.page-here {display: none;}
+	
+	#logo img {margin-top: 10px;margin-bottom: 0;width: 80%;height: auto;}
+	#logo a.dark-logo { display: block !important; }
+	#logo a.light-logo { display: none !important; }
+	
+	#slider {height: 240px;}
+	.flexslider li h2 {margin-top: 0;}
+	
+	.content-box h3 {font-size: 16px;}
+	.content-box ul li {font-size: 14px;}
+	
+	.content-box ul li {font-size: 14px;}
+	.cmargin {margin-left:0;margin-right: 0;}
+	.page-conbox,.page-header,.page-listcon {width: auto;}
+	.page-listcon li {padding-top: 20px;padding-bottom: 10px;margin-bottom: 10px;}
+	.page-listcon li i {display: none;}
+	.page-listcon li a {display: inline-block;padding: 0;text-overflow:inherit;white-space:inherit;width: 100%;padding: 4px;}
+	.page-listcon li span.listdate {top: 0;left: 4px;}
+	.content-box ul li {display: block;padding: 0;text-overflow:inherit;white-space:inherit;line-height: 1.3em;margin: 6px 0;}
+	
+	body.nav-open {overflow: hidden;}
+	body.nav-open #primary-menu {-webkit-transform: translateY(0);transform: translateY(0);}
+	body.nav-open #primary-menu-trigger {box-shadow: none;}
+	body.nav-open #primary-menu-trigger:before {width: 3000px;height: 3000px;background-color: rgba(0, 0, 0, 0.8);}
+	body.nav-open #primary-menu-trigger .icon {width: 0;}
+	body.nav-open #primary-menu-trigger .icon:before {
+		-webkit-transform: translateY(9px) rotate(45deg);
+		  -ms-transform: translateY(9px) rotate(45deg);
+		      transform: translateY(9px) rotate(45deg);
+	}
+	body.nav-open #primary-menu-trigger .icon:after {
+		-webkit-transform: translateY(-9px) rotate(-45deg);
+		  -ms-transform: translateY(-9px) rotate(-45deg);
+		      transform: translateY(-9px) rotate(-45deg);
+	}
+	#primary-menu-trigger {
+		width: 60px;
+		height: 60px;
+		z-index: 200;
+		border-radius: 50%;
+		top: 20px;
+		right: 10px;
+		position: absolute;
+		cursor: pointer;
+		-webkit-transition-duration: 0.66s;
+		      transition-duration: 0.66s;
+		-webkit-transition-timing-function: swing;
+		      transition-timing-function: swing;
+	}
+	#primary-menu-trigger:before {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: rgb(231, 231, 231);
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		  -ms-transform: translateX(-50%) translateY(-50%);
+		      transform: translateX(-50%) translateY(-50%);
+		-webkit-transition-duration: 0.66s;
+		      transition-duration: 0.66s;
+		-webkit-transition-timing-function: swing;
+		      transition-timing-function: swing;
+	}
+	#primary-menu-trigger .icon {
+		width: 30px;
+		height: 4px;
+		background-color: #39a0ce;
+		border-radius: 2px;
+		position: absolute;
+		top: 28px;
+		left: 15px;
+		-webkit-transition-duration: 0.5s;
+		      transition-duration: 0.5s;
+		transiting-timing-function: swing;
+	}
+	#primary-menu-trigger .icon:before,
+	#primary-menu-trigger .icon:after {
+		width: 30px;
+		height: 4px;
+		background-color: #39a0ce;
+		border-radius: 2px;
+		content: "";
+		position: absolute;
+		left: 0;
+		-webkit-transition-duration: 0.5s;
+		      transition-duration: 0.5s;
+		-webkit-transition-timing-function: swing;
+		transition-timing-function: swing;
+	}
+	#primary-menu-trigger .icon:before {
+		top: -9px;
+	}
+	#primary-menu-trigger .icon:after {
+		top: 9px;
+	}
+	#primary-menu {
+		position: relative;
+		top: 0px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 200;
+		-webkit-transition-duration: 0.66s;
+		      transition-duration: 0.66s;
+		-webkit-transition-timing-function: swing;
+		      transition-timing-function: swing;
+		-webkit-transform: translateY(-800px);
+		      transform: translateY(-800px);
+	}
+	#primary-menu ul li {
+		list-style: none;
+		float: none;
+	}
+	#primary-menu ul li a {
+		display: block;
+		padding: 4px 0;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		font-size: 20px;
+		-webkit-transition-duration: 0.25s;
+		      transition-duration: 0.25s;
+	}
+	
+	#primary-menu > ul > li:hover a {background: transparent;color: #39a0ce;}
+	#primary-menu > ul > li.current a { background: #1866a4;color: #fff;}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+
+@media (max-width: 767px) {
+	
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	
+
+}
+
+@media (max-width: 479px) {
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+	#logo a.standard-logo { display: none; }
+	#logo a.retina-logo { display: block; }
+	
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 991px),
+only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
+only screen and (        min-device-pixel-ratio: 2) and (max-width: 991px),
+only screen and (                min-resolution: 192dpi) and (max-width: 991px),
+only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
+	
+	#logo a.standard-logo { display: none; }
+	#logo a.retina-logo { display: inline-block; }
+	
+}

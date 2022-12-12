@@ -1,0 +1,313 @@
+.nav {
+    height: 150px;
+    background-color: #9D0919;
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.nav #logo-nav {
+    margin: auto;
+    height: 110px;
+    padding: 20px;
+}
+
+.content {
+    background: url(../images/bigbg.jpg); 
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%
+}
+
+.back {
+    font-weight: 700;
+    height: 40px;
+    padding-left: 30px;
+    line-height: 40px;
+    text-align: left;
+    background: #F8E5BA;
+}
+
+.head-title {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    color: #9D0919;
+    padding: 0px;
+    font-family: monospace;
+    border-bottom: 5px solid #ccc;
+}
+
+.banner {
+    background: url(../images/bxls.jpg);
+    background-size: 100% 100%;
+    height: 490px;
+}
+
+.bxtj-title {
+    height: 100px;
+    background: url(../images/bg3.png);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 36px;
+    color: #ccc;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.bxtj-content {
+    margin-top: 30px;
+    padding: 0 140px 43px;
+    font-size: 30px;
+    /* color: #e1810a; */
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bxtj-content .left {
+    font-size: 24px;
+    text-align: right !important;
+    border-right: 3px solid red;
+    padding-right: 30px;
+}
+
+.bxtj-content p {
+    margin: 0 0 0em;
+}
+
+.middle-content {
+    margin-top: 50px;
+    height: 260px;
+}
+
+.bxtj-content .right {
+    font-size: 24px;
+    text-align: left !important;
+    padding-left: 30px;
+}
+
+.bxtj-content .xq {
+    font-size: 72px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.bottom-content p {
+    background: #F8E5BA;
+    height: 40px;
+}
+
+.bottom-content p {
+    background: #F8E5BA;
+    height: auto;
+    line-height: 60px;
+    /* color: #000; */
+    padding: 0 133px;
+    font-size: 24px;
+}
+
+.red-point {
+    display: inline-block;
+    background: #9D0919;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bottom-content p {
+    margin-bottom: 20px;
+}
+
+.bottom-content .big {
+    font-size: 36px;
+}
+
+/* phone */
+.phone {
+    padding: 23px 25px;
+    border-top: 10px solid #9D0919;
+}
+
+.phone img {
+    height: 100px;
+    margin: 0em 0;
+    margin-right: 50px;
+}
+
+.phone .zxq {
+    background-color: #9D0919;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 23px;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.img-box {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.phone-right .top {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.phone-num {
+    border-bottom: 1px solid #ccc;
+    color: #9D0919;
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.mobile-photo{
+    display: none;
+}
+.foot-con {
+    line-height: 55px;
+}
+
+.foot-con p {
+    margin-left: 10px;
+    color: #9D0919;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 0em;
+    margin-left: 20px;
+}
+.phone .layui-col-md5{
+    padding-left: 60px;
+}    
+
+@media screen and (max-width: 1200px) {
+    #logo img {
+        position: relative;
+        left: -1880px;
+        filter: drop-shadow(#FCEECB 1890px 0);
+    }  
+    #header, #header-wrap {
+        height: 110px;
+        background: url(../images/nav-bg.jpg);
+    }
+    #primary-menu-trigger .icon {
+        background: #9D0919;
+      
+    }
+    #primary-menu-trigger:before {
+        background: #FCEECB;
+    }
+    #primary-menu-trigger .icon:before, #primary-menu-trigger .icon:after {
+        background: #9D0919;
+    }
+    #header-wrap h1 a {
+        color: #FCEECB;
+    }
+    #schoolLogo {
+        width: 144px;
+        margin: 59px 35px 34px;
+    }
+
+    .container:before, .container:after {
+        height: 0;
+     }
+     .navbox {
+         height: 0px;
+     }
+     #primary-menu {
+        height: 0;
+     }
+    .phone {
+        padding: 23px 50px;
+    }
+    .container {
+        padding-right: 0px; 
+         padding-left: 0px;
+         width: auto;
+       
+    }
+    .table-content {
+        padding: 0 50px 43px;
+        border-bottom: 7px solid #9D0919;
+    }
+
+    .layui-col-md6 {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .phone img {
+        width: 86px;
+    }
+
+    .phone-num {
+        font-size: 27px;
+    }
+
+    .phone .zxq {
+        font-size: 18px;
+    }
+
+    .img-box {
+        height: auto;
+        margin-bottom: 178px;
+    }
+}
+
+/* 在 600 像素或更小的屏幕上，将背景色设置为橄榄色 */
+@media screen and (max-width: 768px) {
+    .phone {
+        padding: 23px 15px
+    }
+
+    .table-content {
+        padding: 0 15px 43px;
+        border-bottom: 7px solid #9D0919;
+    }
+
+    .phone-num {
+        font-size: 24px;
+        border-bottom: 1px solid #ccc;
+        color: #9D0919;
+        margin: 0 0 10px;
+        margin-top: 10px;
+    }
+
+    .phone-right {
+        padding: 5px;
+    }
+
+    .top img {
+        width: 100px;
+    }
+
+    .foot-con p {
+        font-size: 14px;
+    }
+
+    .phone .zxq {
+        font-size: 21px;
+    }
+
+    .layui-col-md6 {
+        width: 100%;
+    }
+
+    .phone img {
+        height: auto !important;
+    }
+
+    .img-box {
+        margin-bottom: 204px;
+    }
+
+    .phone-right .top {
+        margin-bottom: -14px;
+    }
+}
