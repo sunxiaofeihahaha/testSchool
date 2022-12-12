@@ -1,1 +1,2 @@
 qixiugao.mp4 filter=lfs diff=lfs merge=lfs -text
+[[:space:]]images/qixiugao.mp4 filter=lfs diff=lfs merge=lfs -text
